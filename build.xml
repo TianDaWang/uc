@@ -60,7 +60,7 @@
 		<jar jarfile="${release}/com.sumory.uc.jar" basedir="${classes}" />
 		<delete dir="${src}" />
 		<delete dir="${classes}" />
-		<delete dir="${test}" />
+		<delete dir="src/test" />
 		<delete dir="${conf}" />
 		<delete file="build.xml" />
 	</target>
@@ -81,7 +81,7 @@
 		<jar jarfile="${release}/com.sumory.uc.jar" basedir="${classes}" />
 		<delete dir="${src}" />
 		<delete dir="${classes}" />
-		<delete dir="${test}" />
+		<delete dir="src/test" />
 		<delete dir="${conf}" />
 		<delete file="build.xml" />
 	</target>

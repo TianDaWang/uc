@@ -1,5 +1,6 @@
-.DS_Store
-build
-classes
-log
-release
+/.settings
+/.project
+/.classpath
+/target
+/.idea
+*.iml
